@@ -11,7 +11,7 @@
 
 
 
-<title>Ingervohaat</title>
+<title>Kirsi-Marian ja Elielin häiden lisäinfosivu</title>
 
 <script src="site_libs/header-attrs-2.17/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -91,80 +91,6 @@ pre code {
 </style>
 
 
-<style type="text/css">
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #adb5bd;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
-</style>
-
-<script type="text/javascript">
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
-
-  // Navbar adjustments
-  var navHeight = $(".navbar").first().height() + 15;
-  var style = document.createElement('style');
-  var pt = "padding-top: " + navHeight + "px; ";
-  var mt = "margin-top: -" + navHeight + "px; ";
-  var css = "";
-  // offset scroll position for anchor links (for fixed navbar)
-  for (var i = 1; i <= 6; i++) {
-    css += ".section h" + i + "{ " + pt + mt + "}\n";
-  }
-  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
-  document.head.appendChild(style);
-});
-</script>
 
 <!-- tabsets -->
 
@@ -230,53 +156,47 @@ $(document).ready(function () {
 
 
 
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Hääsivu</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">Tervetuloa</a>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
-
 <div id="header">
 
 
 
-<h1 class="title toc-ignore">Ingervohaat</h1>
+<h1 class="title toc-ignore">Kirsi-Marian ja Elielin häiden
+lisäinfosivu</h1>
 
 </div>
 
 
-<div id="kirsi-marian-ja-elielin-lisäinfosivu" class="section level2">
-<h2>Kirsi-Marian ja Elielin lisäinfosivu</h2>
-<p>Tälle nettisivulle ilmoitetaan mikäli ilmenee myöhemmin lisää
-informatttiota, mitä ei ollut vielä kutsussa.</p>
+<style type="text/css">
+body {
+  text-align:left;
+  background: #D0ECE7 url('jalat.jpg') no-repeat center right fixed;
+  background-size: contain;
+  background-position: right;
+  
+  margin-right: 520px;
+}
+
+
+
+</style>
+<p><br><br></p>
+<div
+id="tälle-nettisivulle-ilmoitamme-lisätietoja-ja--ohjeita-häihimme-liittyen."
+class="section level4">
+<h4>Tälle nettisivulle ilmoitamme lisätietoja ja -ohjeita häihimme
+liittyen.</h4>
+<p><br><br></p>
+</div>
 <div id="hotellin-varaus" class="section level3">
 <h3>Hotellin varaus</h3>
-<p>Mikäli haluat varata huonen Hirvihaaran kartanolta, käytäthän koodia:
-…, sillä huoneet ovat varattuja meidän vieraille, eli niitä ei pääse
-varaamaan muuten.</p>
+<p>Mikäli haluat varata huoneen Hirvihaaran kartanolta, käytäthän
+koodia: <strong>KirsiMariaEliel</strong>. Hirvihaaran kartanon
+hotellihuoneet ovat varattuja vain meidän vieraillemme 12.6 asti.</p>
 </div>
 <div id="reittiohjeet" class="section level3">
 <h3>Reittiohjeet</h3>
 <p>Aja hyvälle puolelle kirkkoa xd Hirvihaaran kartanon edustalla on
 parkkipaikka, ennen pihan portteja. Pihalle ei parkkeerata.</p>
-</div>
 </div>
 
 
