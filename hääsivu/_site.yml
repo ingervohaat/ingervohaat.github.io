@@ -1,8 +1,0 @@
-name: "Hääsivu"
-navbar:
-  title: "Hääsivu"
-  left:
-  - text: "Tervetuloa"
-    href: index.html
-#  - text: "Infot"
-#    href: info.html
