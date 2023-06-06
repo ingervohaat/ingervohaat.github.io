@@ -1,5 +1,5 @@
 ---
-title: "Kirsi-Marian ja Elielin häiden lisäinfosivu"
+#title: "Tervetuloa Kirsi-Marian ja Elielin häiden lisäinfosivulle!" 
 #author: "Eliel Ingervo"
 #date: "2023-04-24"
 output: html_document
@@ -23,16 +23,38 @@ body {
 
 ```
 
-<br><br>
 
 
-#### Tälle nettisivulle ilmoitamme lisätietoja ja -ohjeita häihimme liittyen.
+# Tervetuloa Kirsi-Marian ja Elielin häiden lisäinfosivulle! `r knitr::asis_output("\U1F9E1")`
+
+
 
 <br><br>
 
 ### Hotellin varaus
 
 Mikäli haluat varata huoneen Hirvihaaran kartanolta, käytäthän koodia: **KirsiMariaEliel**. Hirvihaaran kartanon hotellihuoneet ovat varattuja vain meidän vieraillemme 12.6 asti.
+
+Huonehinnat sisältäen Kartanon aamiaisbuffetin:
+
+  - 2 hengen huone 189 € / yö
+  - 1 hengen huone 152 € / yö
+  
+### Parkkeeraamisohjeet
+
+Saatamme lisätä tänne ohjeita parkkeeraamiseen liittyen, mikäli sellaisille tulee tarvetta.
+
+### Ohjelma
+
+Mikäli haluaisit järjestää yllätysohjelmaa tai puheen hääjuhlaamme, voit ottaa yhteyttä bestman Peraan (+358505166964) tai hääneito Kirsi-Mariaan (+358504361801).
+
+### Kuvaaminen
+
+Toivomme, että vihkitilaisuudessa vieraat keskittyvät hetkeen ilman kuvaamista. Paikalla on ammattikuvaaja, jonka ottamia kuvia jaamme mielellämme jälkikäteen.
+
+### Alkoholiton
+
+Päätimme järjestää juhlat alkoholittomina.
 
 
 
