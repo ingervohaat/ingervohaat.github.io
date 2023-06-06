@@ -1,0 +1,38 @@
+---
+title: "Kirsi-Marian ja Elielin häiden lisäinfosivu"
+#author: "Eliel Ingervo"
+#date: "2023-04-24"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{css, echo = FALSE}
+body {
+  text-align:left;
+  background: #D0ECE7 url('jalat.jpg') no-repeat center right fixed;
+  background-size: contain;
+  background-position: right;
+  
+  margin-right: 520px;
+}
+
+
+
+```
+
+<br><br>
+
+
+#### Tälle nettisivulle ilmoitamme lisätietoja ja -ohjeita häihimme liittyen.
+
+<br><br>
+
+### Hotellin varaus
+
+Mikäli haluat varata huoneen Hirvihaaran kartanolta, käytäthän koodia: **KirsiMariaEliel**. Hirvihaaran kartanon hotellihuoneet ovat varattuja vain meidän vieraillemme 12.6 asti.
+
+
+
